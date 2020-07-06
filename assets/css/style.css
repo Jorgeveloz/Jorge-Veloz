@@ -1,9 +1,3 @@
-/**
-* Template Name: OnePage - v2.1.0
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -105,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -505,7 +499,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2487ce;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   #hero {
     background-attachment: fixed;
   }
